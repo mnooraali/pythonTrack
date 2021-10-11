@@ -1,0 +1,13 @@
+mkdir manarrepo
+cd manarrepo
+git init 
+ls -a
+touch 10.manar
+git add 10.manar
+git status
+git commit -m "This file created by Manar"
+git status
+git branch -M main 
+git remote add origin git@github.com:FatmaKhaled/pyton2Track.git
+git remote -v
+git push origin main
